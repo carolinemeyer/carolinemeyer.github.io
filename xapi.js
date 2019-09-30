@@ -12,7 +12,7 @@ if (email === null) {
 function sendStatement(verbId, verb, objectId, name, description, score, success){  
         var conf = {  
              "endpoint" : "http://34.199.158.113/data/xAPI/",  // Put your LRS endpoint here with a / after xapi.
-             "auth" : "Basic " + toBase64("6c7b09410676902bbece342026982e85669816a9:dfacee378ca66b67b15bfaf7c1bddb959745e75f") // Put your LRS username in, then a colon, and then your password. No spaces. This field defaults to the Test LRS.
+             "auth" : "Basic " + toBase64("0795093ec7bea0a730e4241069fd913a97cd1efd:278501d8b13ca71d6a9484b366b6eef894b9fce8") // Put your LRS username in, then a colon, and then your password. No spaces. This field defaults to the Test LRS.
              };  
   
         ADL.XAPIWrapper.changeConfig(conf);  
